@@ -33,5 +33,11 @@ If this doesn't work please contact me.
 ### 4. Running the code
 Use `uv run` to execute scripts (this automatically uses the virtual environment):
 ```bash
+# Runs the model evaluation
 uv run test.py
+```
+
+```bash
+# Runs the interaction with the model
+uv run judge_external.py
 ```
