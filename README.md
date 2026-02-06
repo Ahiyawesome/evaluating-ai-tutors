@@ -22,14 +22,13 @@ Run this command in the project root. It will create the virtual environment and
 uv sync
 ```
 
-If this doesn't work please contact me.
-
 ### 3. Download the Model
 This project requires a custom-trained model. You can download it automatically by running:
 
 ```bash
 uv run setup.py
 ```
+If this doesn't work please contact me.
 
 ### 4. Running the code
 Use `uv run` to execute scripts (this automatically uses the virtual environment):
