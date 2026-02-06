@@ -1,0 +1,20 @@
+=== FINAL RESULTS ===
+Accuracy: 67.98%
+
+Detailed Report:
+/home/ahiyan/projects/llm-testing/education-llm/.venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1833: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/ahiyan/projects/llm-testing/education-llm/.venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1833: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/ahiyan/projects/llm-testing/education-llm/.venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1833: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+                                            precision    recall  f1-score   support
+
+                                        no       0.29      0.05      0.08        41
+                            to some extent       0.10      0.30      0.15        20
+                                       yes       0.83      0.80      0.82       270
+you are a good student, but there seems to       0.00      0.00      0.00         0
+
+                                  accuracy                           0.68       331
+                                 macro avg       0.30      0.29      0.26       331
+                              weighted avg       0.72      0.68      0.69       331
